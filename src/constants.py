@@ -1,0 +1,1 @@
+# use capitals for constants, these do not change in the entire game
