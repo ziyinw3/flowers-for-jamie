@@ -3,7 +3,7 @@
 import pygame
 pygame.init()
 
-display = pygame.display.set_mode((1280, 720))
+display = pygame.display.set_mode((1020, 680), pygame.SCALED)
 BLACK = (0, 0, 0)
 WHITE = (240, 240, 240)
 
@@ -17,8 +17,8 @@ string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, \
 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 char_count = len(string)
 
-font = pygame.font.Font('assets/fonts/basis33.ttf', 15)
-text_line = font.render(string, False, BLACK).convert_alpha()
+font = pygame.font.Font('assets/fonts/basis33.ttf', 30)
+text_line = font.render(string, True, BLACK).convert_alpha()
 # text object: loaded in full string to be written
 intermediate = text_line.copy().get_rect()
 position = 0
