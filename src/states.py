@@ -3,3 +3,5 @@
 
 MUSIC_ON = False
 SOUND_ON = False
+
+DAY_TRACKER = 0
