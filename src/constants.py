@@ -8,7 +8,7 @@ import pygame
 SCREEN_HEIGHT = 680
 SCREEN_WIDTH = 1020
 GAME_CAPTION = 'flowers for JAMIE'
-GAME_ICON = pygame.load('assets/images/game_icon.png')
+GAME_ICON = pygame.image.load('assets/images/game_icon.png')
 
 FONT = 'assets/fonts/basis33.ttf'
 

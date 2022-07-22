@@ -1,7 +1,12 @@
 # store states here
 # game states, global stuff, timer
 
-MUSIC_ON = False
-SOUND_ON = False
+music_on = False
+sound_on = False
 
-DAY_TRACKER = 0
+day_tracker = 0
+
+game_is_active = True
+full_screen = False
+
+# active_scene = MainMenu(screen)

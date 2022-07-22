@@ -30,7 +30,7 @@ text_position = [1280/2, 720/2]
 increment = text_line.get_rect()[2] / char_count
 
 while True:
-    clock.tick(30)
+    clock.tick(10)
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
