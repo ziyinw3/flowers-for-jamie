@@ -21,4 +21,8 @@ class Button(Entity):
         pass
 
     def hover_feedback(self):
-        pass
+        if not self.sound_played:
+            # self.sound.play()
+            self.sound_played = True
+        else:
+            self.sound_played = False
