@@ -5,7 +5,7 @@ import pygame
 from src.entities.entity_base_class import Entity
 from src.gui.button_base_class import Button
 
-hover_outline = pygame.image.load('assets/images/plant_book/highlighted_box.png')
+hover_outline = pygame.image.load('assets/images/plant_book/highlighted_box.png').convert_alpha()
 
 
 class PlantEntry(Button):
